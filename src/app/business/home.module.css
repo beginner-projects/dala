@@ -1,0 +1,10 @@
+.iconContainer {
+    position: relative;
+    cursor: pointer;
+    margin-right: 50px;
+    transition: transform 0.3s ease; /* Combine the transitions */
+}
+
+.iconContainer:hover {
+    transform: scale(1.6); /* Apply a single transform with the desired scale value */
+}
